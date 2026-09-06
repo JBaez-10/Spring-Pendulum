@@ -3,6 +3,8 @@ A numerical simulation of a 2D spring-pendulum system derived using Lagrangian m
 
 This project models the coupled radial and angular motion of a mass attached to a spring and numerically integrates the resulting nonlinear equations of motion.
 
+![](https://github.com/JBaez-10/Spring-Pendulum/blob/main/Spring_Pendulum.gif)
+
 ## Features
 - Derived the equations of motion using the Euler-Lagrange equations
 - Modeled the coupled radial and angular dynamics
@@ -96,7 +98,3 @@ python spring_pendulum.py
 - Matplotlib
 - Numerical simulation
 - Data visualization
-
-
-
-![](https://github.com/JBaez-10/Spring-Pendulum/blob/main/Spring_Pendulum.gif)
