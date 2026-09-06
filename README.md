@@ -5,3 +5,6 @@ A spring pendulum system derived using Lagrangian mechanics and simulated in Pyt
  - Matplotlib
  - Numpy
  - SciPy
+
+
+![](https://github.com/JBaez-10/Spring-Pendulum/blob/main/Spring_Pendulum.gif)
