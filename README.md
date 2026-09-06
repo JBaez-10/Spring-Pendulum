@@ -59,6 +59,7 @@ This structure makes it easier to modify parameters such as:
 ## Visualization
 
 The simulation produces an animated representation of the spring-pendulum motion.
+
 ![](https://github.com/JBaez-10/Spring-Pendulum/blob/main/Spring_Pendulum.gif)
 
 ## Libraries
