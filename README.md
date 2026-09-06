@@ -43,10 +43,60 @@ The numerical solver computes:
 - Cartesian position of the mass
 - Time evolution of the system
 
+## Object-Oriented Design
+
+The simulation is organized using Python classes to separate the physical model, numerical integration, and visualization components.
+
+This structure makes it easier to modify parameters such as:
+- Spring constant
+- Mass
+- Gravitational acceleration
+- Initial radial displacement
+- Initial angular velocity
+- Simulation duration
+
+## Visualization
+
+The simulation produces an animated representation of the spring-pendulum motion.
+
 ## Libraries
- - Matplotlib
- - Numpy
- - SciPy
+ - Matplotlib — visualization
+ - Numpy — numerical calculations
+ - SciPy — numerical integration of the equations of motion
+
+## How to Run
+
+Clone the repository:
+
+git clone https://github.com/JBaez-10/Spring-Pendulum.git
+cd Spring-Pendulum
+
+Install the required libraries:
+
+pip install numpy scipy matplotlib
+
+Run the simulation:
+
+python spring_pendulum.py
+
+## Skills Demonstrated
+
+### Physics & Mathematics
+- Lagrangian mechanics
+- Euler-Lagrange equations
+- Nonlinear dynamical systems
+- Ordinary differential equations
+- Numerical methods
+
+### Programming
+- Python
+- Object-oriented programming
+- NumPy
+- SciPy
+- Matplotlib
+- Numerical simulation
+- Data visualization
+
 
 
 ![](https://github.com/JBaez-10/Spring-Pendulum/blob/main/Spring_Pendulum.gif)
